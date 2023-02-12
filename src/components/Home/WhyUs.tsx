@@ -21,7 +21,7 @@ export default function WhyUs(props: Props): JSX.Element {
                 <SectionHeading heading={props.heading} description={props.description}/>
 
                 <div className="flex-1 flex flex-col lg:flex-row justify-between items-stretch lg:items-start gap-20
-                                mt-20 lg:mt-40">
+                                mt-20 lg:mt-[15rem]">
                     {props.cards.map((card, i) => {
 
                         return (

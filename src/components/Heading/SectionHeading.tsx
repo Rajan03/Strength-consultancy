@@ -1,13 +1,12 @@
 'use client'
-import {motion} from "framer-motion";
 import {textVariant} from "@/constant/animation";
 import {AnimatedDiv} from "@/components";
 
 type Props = {
     heading: string;
-    description: string;
+    description?: string;
 
-    className?: string;
+    className?: string; // for description
 }
 
 export default function SectionHeading(props: Props): JSX.Element {
@@ -31,8 +30,8 @@ export default function SectionHeading(props: Props): JSX.Element {
                 </div>
 
                 {/* Description */}
-                {props.description && <p className="text-2xl text-primary-500 text-center mt-[4rem]
-                max-w-5xl">
+                {props.description && <p className={"text-3xl text-primary-500 text-center mt-[4rem]"
+                    + " max-w-8xl " + props.className}>
                     {props.description}
                 </p>}
             </AnimatedDiv>

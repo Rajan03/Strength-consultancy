@@ -16,7 +16,7 @@ export default function BgImgCard(props: Props): JSX.Element {
 
     return (
         <>
-            <AnimatedDiv initial={anim.hidden} whileInView={anim.show} viewport={{once: false}}
+            <AnimatedDiv initial={anim.hidden} whileInView={anim.show} viewport={{once: true}}
                          className={"flex flex-row justify-start items-end min-w-xs lg:min-w-xs max-h-[300px]" +
                              " p-[2rem] min-h-[250px] lg:min-h-[300px] rounded-lg overflow-hidden" +
                              " relative bg-gradient-to-t from-neutral-600 to-neutral-400 cursor-pointer" +
