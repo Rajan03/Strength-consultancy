@@ -29,9 +29,9 @@ export default function Hero(props: IHero): JSX.Element {
                 </AnimatedDiv>
 
                 {/*	Image */}
-                <div className="flex justify-center items-center relative">
+                <div className="flex justify-center items-center relative lg:min-w-[40%]">
                     <Image src={props.image} alt="hero" width={600} height={600}
-                           className={'min-w-[40rem] rounded-tr-[4rem] rounded-bl-[4rem] border-4' +
+                           className={'min-w-full rounded-tr-[4rem] rounded-bl-[4rem] border-4' +
                                ' border-secondary-200'}/>
 
                     <div className={'absolute w-full h-full rounded-tr-[4rem] rounded-bl-[4rem] ' +
