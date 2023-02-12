@@ -1,6 +1,6 @@
 import React from "react";
 import {HomeData} from '@/constant/data';
-import {Hero, Resource, WhyUs} from '@/components';
+import {Hero, Resource, Stats, WhyUs} from '@/components';
 
 export default function Home(): React.ReactNode {
     const {hero, howWeEnhanceEffectiveness, HowItWorks, stats, freeResources} = HomeData;
@@ -9,6 +9,7 @@ export default function Home(): React.ReactNode {
             <Hero {...hero}/>
             <WhyUs {...howWeEnhanceEffectiveness}/>
             <Resource {...freeResources}/>
+            <Stats {...stats}/>
         </>
     )
 }
