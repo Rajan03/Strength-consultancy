@@ -37,12 +37,8 @@ export default function Stats(props: Props): JSX.Element {
                     {/* Content */}
                     <div className="flex-1 flex flex-col justify-start items-center relative gap-[4rem] z-10
                                     container m-auto">
-                        {/*/!* Heading *!/*/}
-                        {/*<h2 className="text-neutral-50 text-6xl font-bold">*/}
-                        {/*    {props.heading}*/}
-                        {/*</h2>*/}
 
-                        <div className={"flex-1 flex flex-col justify-around items-start"}>
+                        <div className={"flex-1 flex flex-col justify-around items-start px-[2rem]"}>
                             {/* Stats */}
                             {props.stats.map((stat, index) => (
                                 <StatProgress key={index} title={stat.title} percent={stat.percent}
