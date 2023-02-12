@@ -16,8 +16,8 @@ export default function WhyUs(props: Props): JSX.Element {
 
     return (
         <>
-            <AnimatedDiv isStaggered
-                         className="flex flex-col justify-start items-stretch min-w-full min-h-screen py-20">
+            <AnimatedDiv isStaggered className="flex flex-col justify-start items-stretch min-w-full py-20
+                                                lg:min-h-screen">
                 <SectionHeading heading={props.heading} description={props.description}/>
 
                 <div className="flex-1 flex flex-col lg:flex-row justify-between items-stretch lg:items-start gap-20
