@@ -25,7 +25,7 @@ export default function WhyUs(props: Props): JSX.Element {
                     {props.cards.map((card, i) => {
 
                         return (
-                            <div key={i} className={'flex-1 overflow-hidden'}>
+                            <div key={i} className={'flex-1 overflow-hidden hover:shadow-2xl transition-shadow'}>
                                 <BgImgCard image={card.image} icon={card.icon} heading={card.heading}
                                            description={card.description} subHeading={card.subHeading}/>
                             </div>
