@@ -7,7 +7,7 @@ import {NavData} from "@/constant/data";
 export default function Navbar(): JSX.Element {
 
     return (
-        <nav className="bg-transparent w-full flex justify-between items-center m-auto
+        <nav className="bg-transparent w-full flex justify-between items-center mx-auto
 		                        pt-[2rem] px-10 container z-20">
             {/*	LOGO */}
             <Link href={'/'}>
