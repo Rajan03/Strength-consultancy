@@ -11,7 +11,7 @@ type Props = {
 }
 
 export default function SectionHeading(props: Props): JSX.Element {
-    const anim = textVariant(1);
+    const anim = textVariant(0.1);
 
     return (
         <>
