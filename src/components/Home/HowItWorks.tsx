@@ -12,7 +12,7 @@ type Props = {
 }
 export default function HowItWorks(props: Props): JSX.Element {
     return (
-        <div className="flex flex-col justify-start items-stretch min-w-full min-h-screen py-20 mt-10 gap-[8rem]">
+        <div className="flex flex-col justify-start items-stretch min-w-full min-h-screen py-[10rem] gap-[8rem]">
 
             {/* Heading */}
             <SectionHeading heading={props.heading} description={props.subHeading}/>

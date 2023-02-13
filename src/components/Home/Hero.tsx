@@ -9,9 +9,6 @@ export default function Hero(props: IHero): JSX.Element {
 
     return (
         <>
-            <Image src={BACKGROUND_JPG} alt={'bg'} priority className={'absolute min-h-screen top-0 left-0 right-0 ' +
-                'max-h-full min-w-full object-cover z-[-1] bg-top'}/>
-
             <div className="flex-1 min-w-full min-h-[calc(100%_-_50px)] flex flex-col-reverse lg:flex-row gap-y-[8rem]
                 lg:gap-y-0 justify-center items-center">
                 {/*	Content */}

@@ -196,3 +196,51 @@ export const HomeData = {
 	},
 }
 
+export const ContactData = {
+	heading: 'Ready to get started?',
+	subHeading: 'Have a question, concern, or message you\'d like to share with us? We\'d love to hear from you.',
+	card: {
+		heading: 'You don\'t have to build an engaged culture alone',
+		subHeading: 'That\'s why we\'re here.',
+		description: 'We\'re here to help you build a culture of engagement that will help you ' +
+			'achieve your goals and drive business growth',
+	},
+	faq: {
+		heading: 'Frequently Asked Questions',
+		subHeading: 'We are here to answer your questions and help you get started',
+		questions: [
+			{
+				question: 'What is the difference between a coach and a consultant?',
+				answer: 'A coach is a professional who helps individuals develop their skills and reach their full potential. ' +
+					'A consultant is a professional who provides advice and guidance to help organizations achieve their goals. ' +
+					'While both coaches and consultants can help individuals and organizations reach their full potential, ' +
+					'they have different roles and responsibilities'
+			},
+			{
+				question: 'Do you have virtual versions of each of your strategy\n' +
+					'and innovation training programs?',
+				answer: 'Yes, we do. We offer virtual versions of all of our strategy and innovation training programs. ' +
+					'Our virtual programs are designed to help individuals and organizations develop the skills they need to ' +
+					'achieve their goals and drive business growth'
+			},
+			{
+				question: 'How do I know if I need a coach or a consultant?',
+				answer: 'If you\'re looking for someone to help you develop your skills and reach your full potential, ' +
+					'you\'ll likely need a coach. If you\'re looking for someone to help you achieve your goals and drive ' +
+					'business growth, you\'ll likely need a consultant'
+			},
+			{
+				question: 'Do you have virtual versions of each of your strategy\n' +
+					'and innovation training programs?',
+				answer: 'Yes, we do. We offer virtual versions of all of our strategy and innovation training programs. ' +
+					'Our virtual programs are designed to help individuals and organizations develop the skills they need to ' +
+					'achieve their goals and drive business growth'
+			}
+		],
+	},
+	form: {
+		heading: 'Still have questions?',
+		subHeading: 'We\'re here to help you get started',
+	}
+}
+
