@@ -166,7 +166,7 @@ export const HomeData = {
 				'their teams for over past few Years'
 		},
 	},
-	HowItWorks: {
+	howItWorks: {
 		heading: 'HOW IT WORKS',
 		subHeading: 'key is to provide a comprehensive and holistic approach that combines strength training, leadership ' +
 			'development, and organizational growth to help individuals and organizations reach their full potential',
@@ -174,7 +174,8 @@ export const HomeData = {
 			{
 				title: 'Assessment',
 				icon: Icons.CLIPBOARD_DOCUMENT,
-				description: 'Thorough assessment of the individuals strengths,weaknesses,and goals allows us to create a customized'
+				description: 'Thorough assessment of the individuals strengths, weaknesses and goals allows us to create a' +
+					' customized'
 					+ 'plan that addresses their specific needs and helps them reach their full potential'
 			},
 			{
@@ -185,7 +186,7 @@ export const HomeData = {
 					'overcome their challenges and reach their full potential'
 			},
 			{
-				title: 'Follow-up and support:',
+				title: 'Follow-up and support',
 				icon: Icons.CHAT_BUBBLE_LEFT_RIGHT,
 				description: 'We believe in providing ongoing support and guidance to our clients. After completing the program, ' +
 					'we offer follow-up coaching and training to help individuals maintain their progress and continue to develop ' +
