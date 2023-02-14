@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import SiteActions from "./SiteActions";
 import Hero from "./General/Hero";
 import WhyUs from "./General/WhyUs";
 import Resource from "./General/Resource";
@@ -30,4 +31,5 @@ export {
     NotAloneCard,
     PageTitle,
     FaqAccordion,
+    SiteActions,
 };

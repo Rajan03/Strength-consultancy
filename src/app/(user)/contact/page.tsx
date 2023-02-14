@@ -1,7 +1,6 @@
 import {ContactData} from "@/constant/data";
-import {NotAloneCard, PageTitle} from "@/components";
+import {NotAloneCard, PageTitle, FaqAccordion} from "@/components";
 import {CONTACT_BG} from "@/constant/Images";
-import FaqAccordion from "../../../components/General/FaqAccordion";
 
 export default function Contact(): JSX.Element {
     const {heading, subHeading, card, faq, form} = ContactData
