@@ -9,6 +9,7 @@ import CASE_STUDY from '../assets/home/case-study.jpg';
 import BACKGROUND from '../assets/Background.png';
 import BACKGROUND_JPG from '../assets/BackgroundJpg.jpg';
 import BG_SVG from '../assets/BackgroundSvg.svg';
+import CONTACT_BG from '../assets/Home/contactCard.jpg';
 
 export {
 	LOGO_IMG,
@@ -21,5 +22,6 @@ export {
 	CASE_STUDY,
 	BACKGROUND,
 	BG_SVG,
-	BACKGROUND_JPG
+	BACKGROUND_JPG,
+	CONTACT_BG,
 };

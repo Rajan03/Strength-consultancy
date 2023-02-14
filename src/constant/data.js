@@ -30,6 +30,16 @@ export const Icons = {
 		<path fillRule="evenodd" d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z" clipRule="evenodd" />
 		<path d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z" />
 	</svg>,
+	DROP_DOWN: className => <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+		<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/>
+	</svg>,
+	DROP_UP: className => <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+		<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7"/>
+	</svg>,
+	QUESTION: c => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={c}>
+		<path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+	</svg>
+
 }
 
 export const NavLinks = {
@@ -235,7 +245,20 @@ export const ContactData = {
 				answer: 'Yes, we do. We offer virtual versions of all of our strategy and innovation training programs. ' +
 					'Our virtual programs are designed to help individuals and organizations develop the skills they need to ' +
 					'achieve their goals and drive business growth'
-			}
+			},
+			{
+				question: 'Do you have virtual versions of each of your strategy\n' +
+					'and innovation training programs?',
+				answer: 'Yes, we do. We offer virtual versions of all of our strategy and innovation training programs. ' +
+					'Our virtual programs are designed to help individuals and organizations develop the skills they need to ' +
+					'achieve their goals and drive business growth'
+			},
+			{
+				question: 'How do I know if I need a coach or a consultant?',
+				answer: 'If you\'re looking for someone to help you develop your skills and reach your full potential, ' +
+					'you\'ll likely need a coach. If you\'re looking for someone to help you achieve your goals and drive ' +
+					'business growth, you\'ll likely need a consultant'
+			},
 		],
 	},
 	form: {

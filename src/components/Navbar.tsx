@@ -8,7 +8,7 @@ export default function Navbar(): JSX.Element {
 
     return (
         <nav className="bg-transparent w-full flex justify-between items-center mx-auto
-		                        pt-[2rem] px-10 container z-20">
+		                        pt-[2rem] px-10 container z-20 min-h-[96px] max-h-[96px]">
             {/*	LOGO */}
             <Link href={'/'}>
                 <Image src={LOGO_IMG} alt="logo" width={100} height={50}
@@ -18,7 +18,7 @@ export default function Navbar(): JSX.Element {
             {/*	NAV LINKS */}
             <ul className="flex items-center space-x-[3rem]">
                 {NavData.map((link, index) => (
-                    <li key={index} className="cursor-pointer text-3xl text-primary-800 font-semibold">
+                    <li key={index} className="cursor-pointer text-3xl lg:text-2xl text-primary-800 font-semibold">
                         <Link href={link.route}>{link.name}</Link>
                     </li>
                 ))}
