@@ -1,8 +1,7 @@
-import {buildLegacyTheme, defineConfig} from 'sanity'
+import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
-import {theme} from 'https://themer.sanity.build/api/hues?preset=tw-cyan'
 import SanityNavbar from '@/components/sanity/SanityNavbar'
 
 
@@ -29,5 +28,4 @@ export default defineConfig({
     types: schemaTypes,
   },
 
-  theme,
 })
