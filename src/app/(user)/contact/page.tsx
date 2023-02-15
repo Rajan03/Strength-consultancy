@@ -5,23 +5,23 @@ import {CONTACT_BG} from "@/constant/Images";
 export default function Contact(): JSX.Element {
     const {heading, subHeading, card, faq, form} = ContactData
     return (
-        <>
+        <div className={'min-h-full flex flex-col justify-start items-stretch gap-y-48'}>
             {/* Page title and Card */}
-            <div className="min-h-[calc(100%_-_96px)] flex flex-col justify-around items-center">
+            <div className="min-h-[calc(100%_-_96px)] flex flex-col justify-around items-center gap-y-50">
                 {/* Page title */}
-                <PageTitle heading={heading} subHeading={subHeading} className={'h-[40%]'}/>
+                <PageTitle heading={heading} subHeading={subHeading} className={""}/>
 
                 {/* Not alone card */}
-                <NotAloneCard {...card} image={CONTACT_BG}/>
+                <NotAloneCard {...card} image={CONTACT_BG} className={""}/>
             </div>
 
             {/* FAQ */}
-            <div className={"min-h-screen flex flex-col gap-y-24 justify-center items-center gap-9"}>
+            <div className={"flex flex-col gap-y-28 justify-start items-center gap-9"}>
                 {/* Page Title */}
                 <SectionHeading heading={faq.heading} description={faq.subHeading}/>
 
                 {/* FAQ */}
-                <div className="grid grid-cols-2 gap-9 justify-start items-center w-full">
+                <div className="flex flex-col lg:grid lg:grid-cols-2 gap-12 justify-start items-center w-full">
                     {faq.questions.map((q, index) => (
                         <FaqAccordion key={index} question={q.question} answer={q.answer}
                                       className={'c-auto h-full'}/>
@@ -30,7 +30,7 @@ export default function Contact(): JSX.Element {
             </div>
 
             {/* Form */}
-            <div className={"min-h-screen flex flex-col gap-y-24 justify-center items-center gap-9"}>
+            <div className={"flex flex-col gap-y-24 justify-start items-center gap-9"}>
                 {/* Page Title */}
                 <SectionHeading heading={form.heading} description={form.subHeading}/>
 
@@ -39,6 +39,6 @@ export default function Contact(): JSX.Element {
                     <ContactForm/>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
