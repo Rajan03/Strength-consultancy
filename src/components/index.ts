@@ -14,6 +14,8 @@ import BgImgCard from "./Cards/BgImgCard";
 import StatProgress from "./Cards/StatProgress";
 import StepCard from "./Cards/StepCard";
 import NotAloneCard from "./Cards/NotAloneCard";
+import ContactForm from "./Cards/ContactForm";
+import Input from "./Inputs/Input";
 
 export {
     Navbar,
@@ -32,4 +34,6 @@ export {
     PageTitle,
     FaqAccordion,
     SiteActions,
+    ContactForm,
+    Input,
 };

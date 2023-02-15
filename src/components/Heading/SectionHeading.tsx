@@ -23,14 +23,14 @@ export default function SectionHeading(props: Props): JSX.Element {
                         {props.heading}
                     </h2>}
 
-                    <div className={'w-1/4 h-[1rem] bg-secondary-100 absolute bottom-[-1rem] right-[-1rem]' +
+                    <div className={'min-w-[10rem] w-1/4 h-[1rem] bg-secondary-100 absolute bottom-[-1rem] right-[-1rem]' +
                         ' rounded-2xl'}></div>
-                    <div className={'w-1/4 h-[1rem] bg-secondary-100 absolute top-[-1rem] left-[-1rem]' +
+                    <div className={'min-w-[10rem] w-1/4 h-[1rem] bg-secondary-100 absolute top-[-1rem] left-[-1rem]' +
                         ' rounded-2xl'}></div>
                 </div>
 
                 {/* Description */}
-                {props.description && <p className={"text-3xl text-primary-500 text-center mt-[4rem]"
+                {props.description && <p className={"text-3xl lg:text-2xl text-primary-500 text-center mt-[4rem]"
                     + " max-w-8xl " + props.className}>
                     {props.description}
                 </p>}
