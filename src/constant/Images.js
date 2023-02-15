@@ -9,7 +9,7 @@ import CASE_STUDY from '../assets/home/case-study.jpg';
 import BACKGROUND from '../assets/Background.png';
 import BACKGROUND_JPG from '../assets/BackgroundJpg.jpg';
 import BG_SVG from '../assets/BackgroundSvg.svg';
-import CONTACT_BG from '../assets/Home/contactCard.jpg';
+import CONTACT_BG from '../assets/home/contactCard.jpg';
 
 export {
 	LOGO_IMG,
