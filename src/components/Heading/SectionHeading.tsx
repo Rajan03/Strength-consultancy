@@ -19,7 +19,7 @@ export default function SectionHeading(props: Props): JSX.Element {
                          viewport={{ once: true}}>
                 {/* Heading */}
                 <div className="flex flex-col justify-start items-center p-5 relative">
-                    {props.heading && <h2 className="text-5xl font-bold text-primary-800 text-center">
+                    {props.heading && <h2 className="text-4xl font-bold text-primary-800 text-center">
                         {props.heading}
                     </h2>}
 
@@ -30,8 +30,8 @@ export default function SectionHeading(props: Props): JSX.Element {
                 </div>
 
                 {/* Description */}
-                {props.description && <p className={"text-3xl lg:text-2xl text-primary-500 text-center mt-[4rem]"
-                    + " max-w-8xl " + props.className}>
+                {props.description && <p className={"text-2xl lg:text-2xl text-primary-500 text-center mt-[3.3rem]"
+                    + " max-w-7xl " + props.className}>
                     {props.description}
                 </p>}
             </AnimatedDiv>

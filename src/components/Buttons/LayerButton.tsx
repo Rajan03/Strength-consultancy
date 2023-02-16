@@ -10,9 +10,9 @@ type Props = {
 export default function LayerButton(props: Props): JSX.Element {
 
 	if (props.link) return (
-		<div className={`flex items-stretch justify-start min-w-[15rem] min-h-[4rem] relative + ${props.classes}`}>
+		<div className={`flex items-stretch justify-start min-w-[15rem] min-h-[4rem] relative shadow-2xl ${props.classes}`}>
 			<Link href={props.link} className={'flex-1 text-2xl min-w-full min-h-full flex items-center' +
-				' justify-center bg-primary-100 rounded-xl text-primary-500 font-bold px-4'}>
+				' justify-center bg-primary-100 rounded-xl text-primary-500 font-bold px-4 shadow-xl'}>
 				{props.text}
 			</Link>
 
@@ -22,9 +22,9 @@ export default function LayerButton(props: Props): JSX.Element {
 	)
 
 	return (
-		<div className={`flex items-stretch justify-start min-w-[15rem] min-h-[4rem] relative + ${props.classes}`}>
+		<div className={`flex items-stretch justify-start min-w-[15rem] min-h-[4rem] relative shadow-2xl ${props.classes}`}>
 			<button onClick={props.onClick} className={'flex-1 text-2xl min-w-full min-h-full flex items-center' +
-				' justify-center bg-primary-100 rounded-xl text-primary-500 font-bold px-4'}>
+				' justify-center bg-primary-100 rounded-xl text-primary-500 font-bold px-4 shadow-xl'}>
 				{props.text}
 			</button>
 

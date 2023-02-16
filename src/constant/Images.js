@@ -10,6 +10,7 @@ import BACKGROUND from '../assets/Background.png';
 import BACKGROUND_JPG from '../assets/BackgroundJpg.jpg';
 import BG_SVG from '../assets/BackgroundSvg.svg';
 import CONTACT_BG from '../assets/home/contactCard.jpg';
+import OFFER_CARD_ONE from '../assets/home/offerCardOne.jpg';
 
 export {
 	LOGO_IMG,
@@ -24,4 +25,5 @@ export {
 	BG_SVG,
 	BACKGROUND_JPG,
 	CONTACT_BG,
+	OFFER_CARD_ONE
 };
