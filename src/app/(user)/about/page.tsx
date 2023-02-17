@@ -16,8 +16,7 @@ export default function About(): JSX.Element {
 
                 <div className="flex flex-col lg:flex-row gap-x-9 gap-y-20 justify-start items-center w-full mt-[9rem]">
                     {ourApproach.steps.map((step, index) => (
-                        <div key={index} className={"bg-neutral=50 shadow-xl p-4 cursor-pointer rounded-lg" +
-                            " border-[1px] border-neutral-200"}>
+                        <div key={index} className={"bg-neutral=50 shadow-xl p-4 cursor-pointer rounded-lg"}>
                             <StepCard title={step.title} icon={step.icon} description={step.description}/>
                         </div>
                     ))}

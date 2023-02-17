@@ -13,7 +13,7 @@ export default function PageTitle(props: Props): JSX.Element {
                 <h1 className={"text-7xl font-bold text-primary-800"}>
                     {heading}
                 </h1>
-                <p className={"text-3xl lg:text-2xl text-primary-500"}>
+                <p className={"text-3xl lg:text-2xl text-primary-500 text-center"}>
                     {subHeading}
                 </p>
             </div>
