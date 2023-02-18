@@ -30,7 +30,7 @@ export default function About(): JSX.Element {
 
                 <div className="flex flex-col gap-y-32 justify-start items-center w-full mt-[9rem]">
                     {whatWeOffer.cards.map((c, i) =>
-                        <OfferCard key={c.id} {...c} className={i % 2 === 0 ? 'flex-row-reverse' : ''}/>)}
+                        <OfferCard key={c.id} {...c} className={i % 2 === 0 ? 'lg:flex-row-reverse' : ''}/>)}
                 </div>
             </div>
         </div>
