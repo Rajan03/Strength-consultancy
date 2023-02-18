@@ -10,7 +10,7 @@ export default function SiteActions(): JSX.Element {
 
 
     return (
-        <div className="fixed bottom-10 right-10 z-50 flex flex-col justify-center items-center gap-[2rem]">
+        <div className="fixed bottom-10 right-10 z-40 flex flex-col justify-center items-center gap-[2rem]">
             <button onClick={scrollToTop} id={'scrollToTopBtn'}
                     className="bg-neutral-100 shadow-xl rounded-full p-4 text-primary-600">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}

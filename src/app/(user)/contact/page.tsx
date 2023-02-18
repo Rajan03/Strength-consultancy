@@ -7,7 +7,7 @@ export default function Contact(): JSX.Element {
     return (
         <div className={'min-h-full flex flex-col justify-start items-stretch gap-y-48'}>
             {/* Page title and Card */}
-            <div className="min-h-[calc(100%_-_96px)] flex flex-col justify-around items-center gap-y-50">
+            <div className="min-h-screen flex flex-col justify-around items-center gap-y-50">
                 {/* Page title */}
                 <PageTitle heading={heading} subHeading={subHeading} className={""}/>
 
