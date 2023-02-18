@@ -1,5 +1,6 @@
 import {PageTitle, SectionHeading, StepCard} from "@/components";
 import {AboutUs} from "@/constant/data";
+import OfferCard from "../../../components/Cards/OurOfferCard";
 
 export default function About(): JSX.Element {
     const {heading, subHeading, ourApproach, whatWeOffer} = AboutUs
@@ -27,8 +28,9 @@ export default function About(): JSX.Element {
             <div className="flex flex-col justify-start items-center gap-y-50 mt-[10rem]">
                 <SectionHeading heading={whatWeOffer.heading} description={whatWeOffer.subHeading}/>
 
-                <div className="flex flex-col lg:flex-row gap-x-9 gap-y-20 justify-start items-center w-full mt-[9rem]">
-
+                <div className="flex flex-col gap-y-32 justify-start items-center w-full mt-[9rem]">
+                    {whatWeOffer.cards.map((c, i) =>
+                        <OfferCard key={c.id} {...c} className={i % 2 === 0 ? 'flex-row-reverse' : ''}/>)}
                 </div>
             </div>
         </div>

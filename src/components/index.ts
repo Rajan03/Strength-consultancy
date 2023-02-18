@@ -15,6 +15,7 @@ import StatProgress from "./Cards/StatProgress";
 import StepCard from "./Cards/StepCard";
 import NotAloneCard from "./Cards/NotAloneCard";
 import ContactForm from "./Cards/ContactForm";
+import OfferCard from "./Cards/OurOfferCard";
 import Input from "./Inputs/Input";
 
 export {
@@ -36,4 +37,5 @@ export {
     SiteActions,
     ContactForm,
     Input,
+    OfferCard,
 };

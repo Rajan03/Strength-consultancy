@@ -355,6 +355,7 @@ export const AboutUs = {
 			'develop your organization and its people',
 		cards: [
 			{
+				id: 1,
 				title: 'Leadership Training',
 				description: 'Let’s work together to empower your employees in their ongoing growth \n' +
 					'and professional development. We offer a variety of leadership training ',
@@ -371,7 +372,8 @@ export const AboutUs = {
 				},
 			},
 			{
-				title: 'Leadership Training',
+				id: 2,
+				title: 'Employee Training',
 				description: 'Let’s work together to empower your employees in their ongoing growth \n' +
 					'and professional development. We offer a variety of leadership training ',
 				image: OFFER_CARD_ONE,
