@@ -1,6 +1,5 @@
-import {PageTitle, SectionHeading, StepCard} from "@/components";
+import {PageTitle, SectionHeading, StepCard, OfferCard} from "@/components";
 import {AboutUs} from "@/constant/data";
-import OfferCard from "../../../components/Cards/OurOfferCard";
 
 export default function About(): JSX.Element {
     const {heading, subHeading, ourApproach, whatWeOffer} = AboutUs

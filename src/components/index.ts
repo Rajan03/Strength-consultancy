@@ -16,6 +16,7 @@ import StepCard from "./Cards/StepCard";
 import NotAloneCard from "./Cards/NotAloneCard";
 import ContactForm from "./Cards/ContactForm";
 import OfferCard from "./Cards/OurOfferCard";
+import ResourceCard from "./Cards/ResourceCard";
 import Input from "./Inputs/Input";
 
 export {
@@ -38,4 +39,5 @@ export {
     ContactForm,
     Input,
     OfferCard,
+    ResourceCard,
 };

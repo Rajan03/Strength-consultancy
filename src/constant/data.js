@@ -6,7 +6,8 @@ import {
 	SECTION2CARD3,
 	SECTION2CARD2,
 	CASE_STUDY,
-	OFFER_CARD_ONE
+	OFFER_CARD_ONE,
+	CLIFTON_CODES, TOOLKIT, INFOGRAPHIC
 } from './Images';
 
 export const Icons = {
@@ -391,5 +392,80 @@ export const AboutUs = {
 		]
 
 	}
+}
+
+export const ResourcesData = {
+	heading: 'Resources',
+	description: 'Get access to 100+ resources to accelerate your growth and productivity',
+	groups: [
+		{
+			id: 1,
+			title: 'Strength Access Codes',
+			items: [
+				{
+					title: 'Clifton Strengths All Access',
+					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
+						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
+					price: '$70',
+					image: CLIFTON_CODES,
+				},
+			]
+		},
+		{
+			id: 2,
+			title: 'Toolkits',
+			items: [
+				{
+					title: 'Strengths Champion Toolkit',
+					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
+						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
+					price: '$120',
+					image: TOOLKIT,
+				},
+				{
+					title: 'Workplace Solutions Toolkit',
+					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
+						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
+					price: '$120',
+					image: TOOLKIT,
+				},
+				{
+					title: 'Entrepreneur & Coaching Solutions Toolkit',
+					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
+						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
+					price: '$120',
+					image: TOOLKIT,
+				},
+			]
+		},
+		{
+			id: 3,
+			title: 'Infographics',
+			items: [
+				{
+					title: '7 Tips to be a Better Coaching Client',
+					description: 'You and your coach will need to work together toward your success. Whether you\'re an executive,' +
+						' an entrepreneur, a mentor, or even another coach, get the most out of your time with my 7+ Tips to be a Better ' +
+						'Coaching Client',
+					price: '$150',
+					image: INFOGRAPHIC,
+				},
+				{
+					title: 'Effective Leadership Communication - 23 Tips Infographic',
+					description: 'Communication is the number one key to healthy relationships and a healthy workplace. So, I\'ve' +
+						' highlighted 23 different areas of communication where you can evaluate your communication strengths and challenges',
+					price: '$150',
+					image: INFOGRAPHIC,
+				},
+				{
+					title: '12 Steps to Maximize Your Strengths',
+					description: 'Communication is the number one key to healthy relationships and a healthy workplace. So, I\'ve' +
+						' highlighted 23 different areas of communication where you can evaluate your communication strengths and challenges',
+					price: '$150',
+					image: INFOGRAPHIC,
+				}
+			]
+		}
+	],
 }
 

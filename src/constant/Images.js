@@ -11,6 +11,9 @@ import BACKGROUND_JPG from '../assets/BackgroundJpg.jpg';
 import BG_SVG from '../assets/BackgroundSvg.svg';
 import CONTACT_BG from '../assets/home/contactCard.jpg';
 import OFFER_CARD_ONE from '../assets/home/offerCardOne.jpg';
+import CLIFTON_CODES from '../assets/resourcesImg.jpg';
+import TOOLKIT from '../assets/Front.png';
+import INFOGRAPHIC from '../assets/Layer 1.jpg';
 
 export {
 	LOGO_IMG,
@@ -25,5 +28,8 @@ export {
 	BG_SVG,
 	BACKGROUND_JPG,
 	CONTACT_BG,
-	OFFER_CARD_ONE
+	OFFER_CARD_ONE,
+	CLIFTON_CODES,
+	TOOLKIT,
+	INFOGRAPHIC,
 };
