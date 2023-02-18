@@ -92,25 +92,27 @@ export default function Resources(): JSX.Element {
                 <div className={'flex flex-col-reverse justify-start items-stretch gap-20 w-full'}>
 
                     {/* Left side */}
-                    <div className={'flex-1 flex flex-col justify-start items-start gap-y-32'}>
+                    <div className={'flex-1 flex flex-col justify-start items-stretch gap-y-32'}>
 
                         {!filteredGroups.filter(s => s.selected).length
                             ? <div className={'text-2xl font-semibold text-primary-600'}>
                                 No results found
                             </div>
                             : <> {filteredGroups.map((group, index) => (
-                                <div key={index} className={'flex flex-col justify-start items-start gap-y-8 relative '
+                                <div key={index} className={'flex flex-col justify-start items-stretch gap-y-8' +
+                                    ' relative '
                                     + (!group.selected ? 'opacity-50 cursor-not-allowed' : '')}>
                                     <div className={'text-2xl font-light text-primary-600 pb-2 border-b-2 ' +
                                         'border-primary-100'}>
                                         {index + 1 + '.'} &nbsp; {group.title}
                                     </div>
 
-                                    <div className={'grid grid-cols-1 md:grid-cols-2 justify-start items-start gap-9'}>
+                                    <div className={'grid grid-cols-1 md:grid-cols-2 justify-between items-stretch' +
+                                        ' gap-9'}>
                                         {group.items.length
                                             ? group.items.map((item, index) =>
                                                 <ResourceCard {...item} key={item.title + index}
-                                                              className={'md:max-w-[60rem]'}/>)
+                                                              className={'md:max-w-[60rem] ' + ((index + 1) % 2 === 0 && 'justify-self-end')}/>)
                                             : <div className={'text-lg font-normal text-center text-primary-600'}>
                                                 No results found
                                             </div>}
