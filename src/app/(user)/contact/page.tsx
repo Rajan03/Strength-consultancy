@@ -12,7 +12,7 @@ export default function Contact(): JSX.Element {
                 <PageTitle heading={heading} subHeading={subHeading} className={""}/>
 
                 {/* Not alone card */}
-                <NotAloneCard {...card} image={CONTACT_BG} className={""}/>
+                <NotAloneCard {...card} image={CONTACT_BG} className={"lg:min-h-[30rem]"}/>
             </div>
 
             {/* FAQ */}

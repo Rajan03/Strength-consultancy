@@ -13,7 +13,7 @@ export default function NotAloneCard(props: Props): JSX.Element {
     const {heading, subHeading, description, image, className} = props;
     return (
         <>
-            <div className={"flex flex-col items-center justify-center w-full min-h-[45rem] p-9" +
+            <div className={"flex flex-col items-center justify-center w-full min-h-[40rem] p-9" +
                 " rounded-xl shadow-lg relative " + className}>
                 <Image src={image} alt={'image'}
                        className="absolute top-0 left-0 object-cover rounded-xl w-full h-full z-[-1]"/>

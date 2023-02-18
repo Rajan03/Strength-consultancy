@@ -18,6 +18,8 @@ import ContactForm from "./Cards/ContactForm";
 import OfferCard from "./Cards/OurOfferCard";
 import ResourceCard from "./Cards/ResourceCard";
 import Input from "./Inputs/Input";
+import Filter from "./Inputs/Filter";
+import Search from "./Inputs/Search";
 
 export {
     Navbar,
@@ -40,4 +42,5 @@ export {
     Input,
     OfferCard,
     ResourceCard,
+    Filter
 };

@@ -409,6 +409,13 @@ export const ResourcesData = {
 					price: '$70',
 					image: CLIFTON_CODES,
 				},
+				{
+					title: 'Clifton Strengths 32 Access',
+					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
+						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
+					price: '$70',
+					image: CLIFTON_CODES,
+				},
 			]
 		},
 		{
