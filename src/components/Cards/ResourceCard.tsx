@@ -1,17 +1,21 @@
+'use client'
+
+import React from "react";
 import Image, {StaticImageData} from "next/image";
-import Link from "next/link";
 import {ArrowRightIcon} from "@heroicons/react/20/solid";
+import {BuyResourceForm, Modal} from "@/components";
 
 type ResourceCardProps = {
+    id: number
     title: string
     description: string
     image: StaticImageData
     price: string
     className?: string
 }
-export default function ResourceCard({title, description, image, price, className}: ResourceCardProps): JSX.Element {
+export default function ResourceCard({id, title, description, image, price, className}: ResourceCardProps): JSX.Element {
+    const [openModal, setOpenModal] = React.useState<boolean>(false);
 
-    // CARD
     return (
         <div className={`flex flex-row justify-start items-stretch gap-x-4 rounded-xl shadow-md
          border-2 border-neutral-100 p-1 cursor-pointer relative ${className}`}>
@@ -27,17 +31,22 @@ export default function ResourceCard({title, description, image, price, classNam
 
                 <div className={'self-stretch flex flex-row justify-between items-center'}>
                     <div className={'flex flex-row justify-start items-center gap-x-2'}>
-                        <div className={'text-lg font-medium text-neutral-600'}>Price - </div>
+                        <div className={'text-lg font-medium text-neutral-600'}>Price -</div>
                         <div className={'text-lg font-bold text-primary-600'}>{price}</div>
                     </div>
 
-                    <Link href={'/contact'} passHref className={'flex flex-row justify-start items-center gap-2' +
-                        ' relative pb-1'}>
+                    <button onClick={() => setOpenModal(true)} className={'flex flex-row justify-start items-center' +
+                        ' gap-2 relative pb-1'}>
                         <div className={'text-primary-500 text-xl font-normal'}>Buy</div>
                         <ArrowRightIcon className={'w-5 h-5 text-primary-600'}/>
-                    </Link>
+                    </button>
                 </div>
             </div>
+
+            {/* Modal */}
+            <Modal isOpen={openModal}>
+               <BuyResourceForm resource={{id, title}} onClose={() => setOpenModal(false)}/>
+            </Modal>
         </div>
     )
 }

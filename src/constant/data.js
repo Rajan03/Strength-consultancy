@@ -368,7 +368,7 @@ export const AboutUs = {
 					'Working together : Diversity & Inclusion',
 				],
 				button: {
-					text: 'Learn More',
+					text: 'Schedule Now',
 					link: '/leadership-training'
 				},
 			},
@@ -385,7 +385,7 @@ export const AboutUs = {
 					'Working together : Diversity & Inclusion',
 				],
 				button: {
-					text: 'Learn More',
+					text: 'Schedule Now',
 					link: '/leadership-training'
 				},
 			},
@@ -403,6 +403,7 @@ export const ResourcesData = {
 			title: 'Strength Access Codes',
 			items: [
 				{
+					id: 1,
 					title: 'Clifton Strengths All Access',
 					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
 						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
@@ -410,6 +411,7 @@ export const ResourcesData = {
 					image: CLIFTON_CODES,
 				},
 				{
+					id: 2,
 					title: 'Clifton Strengths 32 Access',
 					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
 						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
@@ -423,6 +425,7 @@ export const ResourcesData = {
 			title: 'Toolkits',
 			items: [
 				{
+					id: 3,
 					title: 'Strengths Champion Toolkit',
 					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
 						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
@@ -430,6 +433,7 @@ export const ResourcesData = {
 					image: TOOLKIT,
 				},
 				{
+					id: 4,
 					title: 'Workplace Solutions Toolkit',
 					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
 						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
@@ -437,6 +441,7 @@ export const ResourcesData = {
 					image: TOOLKIT,
 				},
 				{
+					id: 5,
 					title: 'Entrepreneur & Coaching Solutions Toolkit',
 					description: 'Discover more about you and unlock All 34 of your CliftonStrengths today and get access to all of ' +
 						'the amazing resources I can offer you: Included StrengthsFinder 2.0 and Let’s Talk Strengths e-books',
@@ -450,6 +455,7 @@ export const ResourcesData = {
 			title: 'Infographics',
 			items: [
 				{
+					id: 6,
 					title: '7 Tips to be a Better Coaching Client',
 					description: 'You and your coach will need to work together toward your success. Whether you\'re an executive,' +
 						' an entrepreneur, a mentor, or even another coach, get the most out of your time with my 7+ Tips to be a Better ' +
@@ -458,6 +464,7 @@ export const ResourcesData = {
 					image: INFOGRAPHIC,
 				},
 				{
+					id: 7,
 					title: 'Effective Leadership Communication - 23 Tips Infographic',
 					description: 'Communication is the number one key to healthy relationships and a healthy workplace. So, I\'ve' +
 						' highlighted 23 different areas of communication where you can evaluate your communication strengths and challenges',
@@ -465,6 +472,7 @@ export const ResourcesData = {
 					image: INFOGRAPHIC,
 				},
 				{
+					id: 8,
 					title: '12 Steps to Maximize Your Strengths',
 					description: 'Communication is the number one key to healthy relationships and a healthy workplace. So, I\'ve' +
 						' highlighted 23 different areas of communication where you can evaluate your communication strengths and challenges',

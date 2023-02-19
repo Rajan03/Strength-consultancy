@@ -5,6 +5,7 @@ import WhyUs from "./General/WhyUs";
 import Resource from "./General/Resource";
 import FaqAccordion from "./General/FaqAccordion";
 import Stats from "./General/Stats";
+import Modal from "./General/Modal";
 import HowItWorks from "./General/HowItWorks";
 import LayerButton from "./Buttons/LayerButton";
 import SectionHeading from "./Heading/SectionHeading";
@@ -15,6 +16,7 @@ import StatProgress from "./Cards/StatProgress";
 import StepCard from "./Cards/StepCard";
 import NotAloneCard from "./Cards/NotAloneCard";
 import ContactForm from "./Cards/ContactForm";
+import BuyResourceForm from "./Cards/BuyResourceForm";
 import OfferCard from "./Cards/OurOfferCard";
 import ResourceCard from "./Cards/ResourceCard";
 import Input from "./Inputs/Input";
@@ -42,5 +44,8 @@ export {
     Input,
     OfferCard,
     ResourceCard,
-    Filter
+    Filter,
+    Search,
+    Modal,
+    BuyResourceForm
 };

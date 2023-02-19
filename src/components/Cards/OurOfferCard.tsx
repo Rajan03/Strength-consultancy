@@ -1,6 +1,6 @@
-import {OFFER_CARD_ONE} from "@/constant/Images";
 import Image, {StaticImageData} from "next/image";
 import {LayerButton} from "@/components";
+import {NavLinks} from "@/constant/data";
 
 type Props = {
     title: string;
@@ -15,7 +15,7 @@ type Props = {
 }
 
 export default function OfferCard(props: Props): JSX.Element {
-    let {title, description, includes, button: {text, link}, image, className} = props;
+    let {title, description, includes, button: {text}, image, className} = props;
 
     return (
         <div className={"flex flex-col lg:flex-row gap-16 justify-start items-stretch " + className}>
@@ -41,7 +41,7 @@ export default function OfferCard(props: Props): JSX.Element {
                 </div>
 
                 <div className={'mt-16 lg:mt-0'}>
-                    <LayerButton text={text} link={link} />
+                    <LayerButton text={text} link={NavLinks.CONTACT} />
                 </div>
             </div>
         </div>
