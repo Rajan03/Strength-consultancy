@@ -11,10 +11,10 @@ export default function Footer() {
             <div className={'flex-1 flex flex-row justify-between items-center p-16 bg-gradient-to-l ' +
                 'from-primary-300 to-primary-100 min-w-[100vw] relative left-0'}>
                 {/* LOGO */}
-                <Image src={logo} alt={'logo'} width={100} height={100}/>
+                <Image src={logo} alt={'logo'} className={'w-[8rem] h-[12rem]'}/>
 
                 {/* LINKS */}
-                <ul className={'flex flex-row space-x-16'}>
+                <ul className={'hidden sm:flex flex-row space-x-16'}>
                     {links.map((link, index) => (
                         <li key={link.name + index} className={'text-2xl text-neutral-700 font-medium'}>
                             <Link href={link.route}>
