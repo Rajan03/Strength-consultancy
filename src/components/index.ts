@@ -22,6 +22,7 @@ import ResourceCard from "./Cards/ResourceCard";
 import Input from "./Inputs/Input";
 import Filter from "./Inputs/Filter";
 import Search from "./Inputs/Search";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -47,5 +48,6 @@ export {
     Filter,
     Search,
     Modal,
-    BuyResourceForm
+    BuyResourceForm,
+    Footer,
 };

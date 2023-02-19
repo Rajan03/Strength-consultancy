@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import {Montserrat} from '@next/font/google';
-import {Navbar, SiteActions} from "@/components";
+import {Footer, Navbar, SiteActions} from "@/components";
 import {BACKGROUND_JPG} from "@/constant/Images";
 import '@/styles/globals.css';
 
@@ -27,6 +27,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
             <SiteActions/>
 
             {/* Footer */}
+            <Footer/>
         </div>
         <div id="modal-root"></div>
         </body>

@@ -5,7 +5,7 @@ import {CONTACT_BG} from "@/constant/Images";
 export default function Contact(): JSX.Element {
     const {heading, subHeading, card, faq, form} = ContactData
     return (
-        <div className={'min-h-full flex flex-col justify-start items-stretch gap-y-48'}>
+        <>
             {/* Page title and Card */}
             <div className="min-h-screen flex flex-col justify-around items-center gap-y-50">
                 {/* Page title */}
@@ -16,7 +16,7 @@ export default function Contact(): JSX.Element {
             </div>
 
             {/* FAQ */}
-            <div className={"flex flex-col gap-y-28 justify-start items-center gap-9"}>
+            <div className={"mb-48 flex flex-col gap-y-28 justify-start items-center gap-9"}>
                 {/* Page Title */}
                 <SectionHeading heading={faq.heading} description={faq.subHeading}/>
 
@@ -30,7 +30,7 @@ export default function Contact(): JSX.Element {
             </div>
 
             {/* Form */}
-            <div className={"flex flex-col gap-y-24 justify-start items-center gap-9"}>
+            <div className={"mb-48 flex flex-col gap-y-24 justify-start items-center gap-9"}>
                 {/* Page Title */}
                 <SectionHeading heading={form.heading} description={form.subHeading}/>
 
@@ -39,6 +39,6 @@ export default function Contact(): JSX.Element {
                     <ContactForm/>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
