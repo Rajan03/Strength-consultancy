@@ -6,6 +6,7 @@ import Resource from "./General/Resource";
 import FaqAccordion from "./General/FaqAccordion";
 import Stats from "./General/Stats";
 import Modal from "./General/Modal";
+import Testimonials from "./General/Testimonials";
 import HowItWorks from "./General/HowItWorks";
 import LayerButton from "./Buttons/LayerButton";
 import SectionHeading from "./Heading/SectionHeading";
@@ -50,4 +51,5 @@ export {
     Modal,
     BuyResourceForm,
     Footer,
+    Testimonials
 };

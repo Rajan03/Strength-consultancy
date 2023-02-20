@@ -11,7 +11,7 @@ export default function Footer() {
             <div className={'flex-1 flex flex-row justify-between items-center p-16 bg-gradient-to-l ' +
                 'from-primary-300 to-primary-100 min-w-[100vw] relative left-0'}>
                 {/* LOGO */}
-                <Image src={logo} alt={'logo'} className={'w-[8rem] h-[12rem]'}/>
+                <Image src={logo} alt={'logo'} className={'w-[8.5rem] h-[10rem]'}/>
 
                 {/* LINKS */}
                 <ul className={'hidden sm:flex flex-row space-x-16'}>
