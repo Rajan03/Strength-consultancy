@@ -88,7 +88,7 @@ export const textVariant2 = {
 	},
 };
 
-export const fadeIn = (direction, type, delay, duration) => ({
+export const fadeInHero = (direction, type, delay, duration) => ({
 	hidden: {
 		x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
 		y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
@@ -105,6 +105,33 @@ export const fadeIn = (direction, type, delay, duration) => ({
 			ease: 'easeOut',
 		},
 	},
+});
+
+export const fadeIn = () => ({
+	hidden: d => ({
+		x: d > 0 ? 600 : -600,
+		opacity: 0,
+	}),
+	show: {
+		x: 0,
+		opacity: 1,
+		transition: {
+			x: {
+				type: 'tween',
+				duration: 0.7,
+			},
+		},
+	},
+	exit: d => ({
+		x: d > 0 ? -600 : 600,
+		opacity: 0,
+		transition: {
+			x: {
+				type: 'tween',
+				duration: 0.4,
+			},
+		}
+	})
 });
 
 export const planetVariants = (direction) => ({

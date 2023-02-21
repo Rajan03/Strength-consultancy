@@ -1,11 +1,10 @@
 import React from "react";
 import Image, {StaticImageData} from "next/image";
-import {BACKGROUND_JPG} from "@/constant/Images";
-import {fadeIn} from "@/constant/animation";
+import {fadeInHero} from "@/constant/animation";
 import {LayerButton, AnimatedDiv} from "@/components";
 
 export default function Hero(props: IHero): JSX.Element {
-    const fadeAnimation = fadeIn('up', 'tween', 0, .1);
+    const fadeAnimation = fadeInHero('up', 'tween', 0, .1);
 
     return (
         <>
@@ -13,7 +12,7 @@ export default function Hero(props: IHero): JSX.Element {
                 lg:gap-y-0 justify-center items-center">
                 {/*	Content */}
                 <AnimatedDiv initial={fadeAnimation.hidden} animate={fadeAnimation.show}
-                       className="flex flex-col gap-y-8 justify-center items-start p-[1rem]">
+                             custom={1} className="flex flex-col gap-y-8 justify-center items-start p-[1rem]">
                     <h1 className="text-6xl font-bold text-primary-800">
                         {props.heading}
                     </h1>

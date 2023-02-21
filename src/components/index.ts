@@ -8,6 +8,7 @@ import Stats from "./General/Stats";
 import Modal from "./General/Modal";
 import Testimonials from "./General/Testimonials";
 import HowItWorks from "./General/HowItWorks";
+import Slider from "./General/Slider";
 import LayerButton from "./Buttons/LayerButton";
 import SectionHeading from "./Heading/SectionHeading";
 import PageTitle from "./Heading/PageTitle";
@@ -20,6 +21,7 @@ import ContactForm from "./Cards/ContactForm";
 import BuyResourceForm from "./Cards/BuyResourceForm";
 import OfferCard from "./Cards/OurOfferCard";
 import ResourceCard from "./Cards/ResourceCard";
+import TestimonialCard from "./Cards/TestimonialCard";
 import Input from "./Inputs/Input";
 import Filter from "./Inputs/Filter";
 import Search from "./Inputs/Search";
@@ -51,5 +53,7 @@ export {
     Modal,
     BuyResourceForm,
     Footer,
-    Testimonials
+    Testimonials,
+    TestimonialCard,
+    Slider,
 };

@@ -256,6 +256,27 @@ export const HomeData = {
 			},
 		]
 	},
+	testimonials: {
+		heading: 'What our clients say',
+		subHeading: 'See what our customers have to say about our products and services',
+		testimonials: [
+			{
+				name: 'Karan Aujla',
+				company: 'Company Name',
+				description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			},
+			{
+				name: 'Deep Rehan',
+				company: 'Company Name',
+				description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			},
+			{
+				name: 'Dilpreet Dhillon',
+				company: 'Company Name',
+				description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			}
+		]
+	}
 }
 
 export const ContactData = {
