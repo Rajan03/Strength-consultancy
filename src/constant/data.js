@@ -1,13 +1,10 @@
 import {
-	LOGO_IMG,
-	HERO_IMG,
-	STATS_BG,
-	SECTION2CARD1,
-	SECTION2CARD3,
-	SECTION2CARD2,
-	CASE_STUDY,
-	OFFER_CARD_ONE,
-	CLIFTON_CODES, TOOLKIT, INFOGRAPHIC
+	LOGO_IMG, HERO_IMG, STATS_BG,
+	SECTION2CARD1, SECTION2CARD3,
+	SECTION2CARD2, CASE_STUDY,
+	OFFER_CARD_ONE, CLIFTON_CODES,
+	TOOLKIT, INFOGRAPHIC, COACH_ONE,
+	STRENGTHS_FINDER, LEADERSHIP
 } from './Images';
 
 export const Icons = {
@@ -518,5 +515,195 @@ export const ResourcesData = {
 			]
 		}
 	],
+}
+
+export const CoachesData = {
+	heading: 'Coaches',
+	description: 'We are a community of coaches who are passionate about helping you achieve your goals. ' +
+		'Our coaches are certified in StrengthsFinder, Gallup’s CliftonStrengths, and other tools and techniques ' +
+		'that help you discover your strengths and develop your potential.',
+	coaches: [
+		{
+			id: 1,
+			name: 'Emma Smith',
+			image: COACH_ONE,
+			description: 'John is a certified StrengthsFinder coach and Gallup’s CliftonStrengths coach. ' +
+				'He has been coaching for over 10 years and has helped hundreds of people discover their strengths ' +
+				'and develop their potential. He is passionate about helping people achieve their goals and ' +
+				'is committed to helping you achieve yours.',
+			contact: {
+				email: '',
+				phone: '+1 234 567 890',
+				linkedin: '',
+				facebook: '',
+				instagram: '',
+				twitter: '',
+			},
+			offerings: [
+				{
+					id: 1,
+					title: 'StrengthsFinder Coaching',
+					description: 'Discover your top 5 strengths and learn how to use them to achieve your goals. ' +
+						'You will also receive a StrengthsFinder 2.0 e-book and a Let’s Talk Strengths e-book.',
+					price: '$70',
+					image: STRENGTHS_FINDER,
+				},
+				{
+					id: 2,
+					title: 'Leadership Coaching',
+					description: 'Discover your top 5 strengths and learn how to use them to achieve your goals. ' +
+						'You will also receive a StrengthsFinder 2.0 e-book and a Let’s Talk Strengths e-book.',
+					price: '$70',
+					image: LEADERSHIP,
+				},
+			],
+			methods: [
+				{
+					id: 1,
+					title: 'Individual Coaching Essential and advanced - In Person',
+					price: '$70',
+				},
+				{
+					id: 2,
+					title: 'Individual Coaching Essential and advanced - Online',
+					price: '$70',
+				},
+				{
+					id: 3,
+					title: 'Introductory Workshop - Team Coaching/Group Coaching/CliftonStrengths Workshop',
+					price: '$70',
+				},
+				{
+					id: 4,
+					title: 'Career Coaching/Vocational Coaching/Speaking & Training',
+					price: '$70',
+				}
+			],
+			button: {
+				text: 'Schedule Now',
+			},
+		},
+		{
+			id: 2,
+			name: 'Toni Dwason',
+			image: COACH_ONE,
+			description: 'Toni is a certified StrengthsFinder coach and Gallup’s CliftonStrengths coach. ' +
+				'He has been coaching for over 10 years and has helped hundreds of people discover their strengths ' +
+				'and develop their potential. He is passionate about helping people achieve their goals and ' +
+				'is committed to helping you achieve yours.',
+			contact: {
+				email: '',
+				phone: '+1 234 567 890',
+				linkedin: '',
+				facebook: '',
+				instagram: '',
+				twitter: '',
+			},
+			offerings: [
+				{
+					id: 1,
+					title: 'StrengthsFinder Coaching',
+					description: 'Discover your top 5 strengths and learn how to use them to achieve your goals. ' +
+						'You will also receive a StrengthsFinder 2.0 e-book and a Let’s Talk Strengths e-book.',
+					price: '$70',
+					image: STRENGTHS_FINDER,
+				},
+				{
+					id: 2,
+					title: 'Leadership Coaching',
+					description: 'Discover your top 5 strengths and learn how to use them to achieve your goals. ' +
+						'You will also receive a StrengthsFinder 2.0 e-book and a Let’s Talk Strengths e-book.',
+					price: '$70',
+					image: LEADERSHIP,
+				},
+			],
+			methods: [
+				{
+					id: 1,
+					title: 'Individual Coaching Essential and advanced - In Person',
+					price: '$70',
+				},
+				{
+					id: 2,
+					title: 'Individual Coaching Essential and advanced - Online',
+					price: '$70',
+				},
+				{
+					id: 3,
+					title: 'Introductory Workshop - Team Coaching/Group Coaching/CliftonStrengths Workshop',
+					price: '$70',
+				},
+				{
+					id: 4,
+					title: 'Career Coaching/Vocational Coaching/Speaking & Training',
+					price: '$70',
+				}
+			],
+			button: {
+				text: 'Schedule Now',
+			},
+		},
+
+		{
+			id: 2,
+			name: 'Toni Dwason',
+			image: COACH_ONE,
+			description: 'Toni is a certified StrengthsFinder coach and Gallup’s CliftonStrengths coach. ' +
+				'He has been coaching for over 10 years and has helped hundreds of people discover their strengths ' +
+				'and develop their potential. He is passionate about helping people achieve their goals and ' +
+				'is committed to helping you achieve yours.',
+			contact: {
+				email: '',
+				phone: '+1 234 567 890',
+				linkedin: '',
+				facebook: '',
+				instagram: '',
+				twitter: '',
+			},
+			offerings: [
+				{
+					id: 1,
+					title: 'StrengthsFinder Coaching',
+					description: 'Discover your top 5 strengths and learn how to use them to achieve your goals. ' +
+						'You will also receive a StrengthsFinder 2.0 e-book and a Let’s Talk Strengths e-book.',
+					price: '$70',
+					image: STRENGTHS_FINDER,
+				},
+				{
+					id: 2,
+					title: 'Leadership Coaching',
+					description: 'Discover your top 5 strengths and learn how to use them to achieve your goals. ' +
+						'You will also receive a StrengthsFinder 2.0 e-book and a Let’s Talk Strengths e-book.',
+					price: '$70',
+					image: LEADERSHIP,
+				},
+			],
+			methods: [
+				{
+					id: 1,
+					title: 'Individual Coaching Essential and advanced - In Person',
+					price: '$70',
+				},
+				{
+					id: 2,
+					title: 'Individual Coaching Essential and advanced - Online',
+					price: '$70',
+				},
+				{
+					id: 3,
+					title: 'Introductory Workshop - Team Coaching/Group Coaching/CliftonStrengths Workshop',
+					price: '$70',
+				},
+				{
+					id: 4,
+					title: 'Career Coaching/Vocational Coaching/Speaking & Training',
+					price: '$70',
+				}
+			],
+			button: {
+				text: 'Schedule Now',
+			},
+		},
+	]
 }
 
